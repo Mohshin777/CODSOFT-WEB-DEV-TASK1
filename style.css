@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    border: 0;
+}
+
+header{
+    width:100%;
+    height:100vh;
+    background:url('images/image3.jpg');
+    background-size:cover;
+    font-family:sans-serif;
+}
+
+nav{
+    width:100%;
+    height:100px;
+    
+    color:black;
+    display:flex;
+    justify-content: space-around;
+    align-items: left;
+    
+
+}
+
+.logo{
+    font-size:2em;
+    letter-spacing:2px;
+}
+
+.menu{
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 600px;
+    
+}
+
+.menu a{
+   text-decoration: none;
+   color:white;
+   background-color:black;
+   
+   padding: 10px ;
+   font-size: 20px;
+  
+}
+
+.menu a:before{
+   content:'';
+   position:absolute;
+   top:0;
+   left:0;
+   width: 100%;
+   height:100%;
+   
+   transition: 0.4s linear;
+}
+
+.menu a:hover::before{
+    width:90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.register {
+     text-decoration: none;
+     color: white;
+     padding: 10px 20px;
+     font-size: 20px;
+     background: black;
+     border-radius:8px;
+     transition: 0.4s;
+}
+
+.register :hover{
+    background:blue;
+    border:1px solid black;
+}
+
+.heading{
+    max-width: 650px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    color:black;
+}
+
+.heading span{
+    letter-spacing: 5px;
+}
+
+.heading h1{
+    font-size: 2.5rem;
+}
+
+.heading a{
+    text-decoration: none;
+    background: black;
+    color:white;
+    padding:10px 20px;
+    letter-spacing: 5px;
+}
+
+.heading a:hover{
+    background: black;
+    border:1px solid black;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-top: 7px;
+}
+
+.foot {
+    height:50px;
+     background-color:black;
+     padding-left: 550px;
+    
+}
+
+.foot h2{
+    color:white;
+}
+
+.foot h3{
+    color:white;
+}
+.Email{
+    text-align:left;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
